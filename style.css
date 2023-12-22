@@ -1,0 +1,27 @@
+
+.hell{
+    border: 5px #ffffff solid;
+    border-radius: 20px;
+}
+
+.hell1{
+    /* border-bottom: 5px #ffffff solid; */
+    border-radius: 20px;
+}
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+.gmap_canvas{
+    position: absolute;
+    overflow: inherit;
+    background: none !important;
+    width: 50%;
+    height: 50%;
+}
+@media (min-width : 768px){
+    .news-input {
+        width:50%;
+    }   
+}
